@@ -7,7 +7,7 @@ if exists("g:disable_codecomplete")
 endif
 
 if !exists("g:completekey")
-    let g:completekey = "<tab>"   "hotkey
+    let g:completekey = "<c-j>"   "hotkey
 endif
 
 if !exists("g:rs")

@@ -5,6 +5,6 @@ func(<a int>, <b int>)
 in insert mode: press <tab> will jump to:<a int>, next:<b int>, next:end of line
  
 customer map keys:
-let g:completekey = "<c-j>" //default <tab>
+let g:completekey = "<tab>" //default <c-j>
 let g:rs = "`<" //default<
 let g:re = ">`" //default>
