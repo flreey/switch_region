@@ -11,11 +11,11 @@ if !exists("g:completekey")
 endif
 
 if !exists("g:rs")
-    let g:rs = '`<'    "region start
+    let g:rs = '<'    "region start
 endif
 
 if !exists("g:re")
-    let g:re = '>`'    "region stop
+    let g:re = '>'    "region stop
 endif
 
 if !exists("g:user_defined_snippets")
@@ -41,6 +41,6 @@ function! SwitchRegion()
         endif
         return "\<c-\>\<c-n>gv\<c-g>"
     else
-        return "\<c-o>A"
+        return "\<End>"
     endif
 endfunction
